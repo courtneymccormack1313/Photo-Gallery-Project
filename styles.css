@@ -1,0 +1,38 @@
+h1{
+  display: flex;
+  font-family: "Titillium Web",sans-serif;
+  color: #ADD8E6;
+  justify-content: center;
+}
+body{
+  background-color: #4169E1;
+}
+.image{
+  height: 400px;
+  width: 400px;
+  object-fit: fill;
+  margin-bottom: 100px;
+}
+div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: 20px;
+}
+@media screen and (max-width: 1068px){
+  .image{
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 480px){
+  .image{
+    height: 50px;
+    width: 50px;
+    object-fit: fill;
+    margin-bottom: 5px;
+  }
+}
